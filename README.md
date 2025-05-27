@@ -2,7 +2,6 @@
 
 This project implements a real-time system for detecting unusual patterns in stock market behavior. By leveraging real-time financial data and applying statistical, machine learning, and visualization techniques, the system identifies significant market events and presents them through an interactive dashboard.
 
-![Dashboard Screenshot](images/price_chart.png)
 
 ---
 
