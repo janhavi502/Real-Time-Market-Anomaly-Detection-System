@@ -2,7 +2,7 @@
 
 This project implements a real-time system for detecting unusual patterns in stock market behavior. By leveraging real-time financial data and applying statistical, machine learning, and visualization techniques, the system identifies significant market events and presents them through an interactive dashboard.
 
-![Dashboard Screenshot](images/dashboard_screenshot.png)
+![Dashboard Screenshot](images/price_chart.png)
 
 ---
 
@@ -22,8 +22,8 @@ The goal of this project is to build a streaming anomaly detection system that:
 
 In volatile financial markets, timely detection of anomalies can help:
 
-- Identify trading opportunities
-- Reduce risk exposure
+- Identify trading opportunities  
+- Reduce risk exposure  
 - Capture early signals of major market moves
 
 Market anomalies often precede important price action or macroeconomic events. This system helps surface such patterns automatically in real-time.
@@ -33,17 +33,17 @@ Market anomalies often precede important price action or macroeconomic events. T
 ## 🧰 Technologies Used
 
 ### 📡 Data Sources
-- **Yahoo Finance API (yfinance)** – Real-time and historical data source
+- **Yahoo Finance API (yfinance)** – Real-time and historical data source  
 - (Optional extensions: Alpha Vantage, Polygon.io)
 
 ### 🧠 Models and Logic
-- **Z-Score Analysis** – Standard deviation-based statistical thresholding
-- **Isolation Forest** – Unsupervised machine learning anomaly detection
-- (Optional extension: LSTM Autoencoder for sequence modeling)
+- **Z-Score Analysis** – Standard deviation-based statistical thresholding  
+- **Isolation Forest** – Unsupervised machine learning anomaly detection  
+- (Optional extension: LSTM Autoencoder for sequence modeling)  
 - **Technical Indicators** – Moving averages, volatility, volume ratios
 
 ### 📊 Visualization & UI
-- **Plotly** – Interactive charts for price, volume, and anomalies
+- **Plotly** – Interactive charts for price, volume, and anomalies  
 - **Streamlit** – Real-time alert dashboard with CSV upload support
 
 ---
@@ -55,7 +55,17 @@ Market anomalies often precede important price action or macroeconomic events. T
 - Tabular view of recent and historical **alerts**
 - Optional backtesting logic to validate anomaly signals
 
-![Alert Table](images/alerts_table.png)
+### 🔹 Price Anomalies (Raw Data)
+
+![Price with Anomalies](images/AAPL_price_with_anomalies.png)
+
+### 🔹 Strategy Backtesting Cumulative Returns
+
+![Cumulative Returns](images/Backtesting_strategy_singleValidation.png)
+
+### 🔹 Streamlit Visualization
+
+![Streamlit Dashboard](images/price_chart.png)
 
 ---
 
